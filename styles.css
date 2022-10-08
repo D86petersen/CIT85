@@ -18,3 +18,32 @@ a:active {
     color: blue;
     
 }
+
+li:first-child {
+color: red
+}
+
+li:last-child {
+color: blue
+}
+
+li:nth-child(even) {
+background-color:grey;
+}
+
+li:nth-child(odd) {
+background-color: lightgrey;
+}
+
+li:nth-child(3) {
+color: purple
+}
+
+li:only-child {
+color: orange
+}
+
+li:nth-child(10n+8) {
+color: green
+}
+
