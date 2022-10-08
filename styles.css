@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -55,4 +55,22 @@ font-size: 2em;
 p::first-line {
 color: blue;
 font-size: 1.5em;
+} */
+
+
+
+div p {
+color: red;
+}
+
+div > p {
+color: blue;
+}
+
+div + p {
+color: purple;
+}
+
+div ~ p {
+font-weight: bold;
 }
