@@ -47,3 +47,12 @@ li:nth-child(10n+8) {
 color: green
 }
 
+p::first-letter {
+color: red;
+font-size: 2em;
+}
+
+p::first-line {
+color: blue;
+font-size: 1.5em;
+}
