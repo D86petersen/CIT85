@@ -59,7 +59,7 @@ font-size: 1.5em;
 
 
 
-div p {
+/* div p {
 color: red;
 }
 
@@ -73,4 +73,71 @@ color: purple;
 
 div ~ p {
 font-weight: bold;
+} */
+
+div{
+    width: 100%;
+    height: 500px;
+    background-color: lightgrey;
+    border: 1px solid black;
 }
+/* more specific than just selecting the element  */
+div p {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+div > p {
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+/* specific to all p tags that are an immediate sibling folling a div */
+div + p {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+/* id's are more specific than just calling the class or element */
+#div2 {
+    height: 800px;
+    background-color: red;
+    border: 1px solid black;
+}
+/* equally specific as calling div p  */
+div ~ p {
+    background-color: blue;
+    border: 1px solid black;
+}
+p{
+    width: 200px;
+    height: 200px;
+    color: white;
+    border: 2px solid white;
+}
+
+h1{
+   width:500px;
+   height:100px;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.paragraph1{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: green;
+    border: 1px solid #eee;
+}
+.paragraph2 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    border: 1px solid #eee;
+}
+
