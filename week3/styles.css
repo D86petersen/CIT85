@@ -1,0 +1,19 @@
+body {
+    background-color: #4884ec;
+   
+    
+}
+
+#lemons {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 10px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: inline-flex;
+
+}
