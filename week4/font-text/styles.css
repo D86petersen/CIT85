@@ -1,0 +1,41 @@
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h3 {
+    font-family: 'Dancing Script', cursive;
+}
+#font1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight:700;
+  
+}
+#font2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+}
+#font3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.letter-spacing {
+    letter-spacing: 0.5em;
+    text-shadow: 3px 3px 3px #000000;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.strike  {
+    text-decoration: line-through;
+}
+.indent {
+    text-indent: 2em;
+}
