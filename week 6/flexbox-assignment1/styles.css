@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boxes {
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    flex-grow: 1;
+}
+.box20 {
+    height: 100px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    flex-grow: 2;
+}
