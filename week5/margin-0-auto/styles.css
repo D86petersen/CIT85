@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+.main-content {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: green;
+    border: 5px solid black;
+}
+#img-container {
+    display: flex;
+    justify-content: center;
+}
+img { 
+    border: 5px solid yellow;
+    border-radius: 75%;
+}
+h1 {
+    margin: 10px;
+}
+p {
+    margin: 10px;
+}
