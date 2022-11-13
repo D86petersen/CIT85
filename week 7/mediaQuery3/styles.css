@@ -1,0 +1,39 @@
+.vertical-menu {
+    width: 200px;
+    height: 100vh;
+    margin-right: 20px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 50px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: blue;
+    color: white;
+  }
+  .menu-container {
+    display: flex;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .vertical-menu {
+      display: flex;
+      padding: 10px;
+      height: auto;
+    }
+    .menu-container {
+      flex-direction: column;
+    }
+  }
+    
+  }
