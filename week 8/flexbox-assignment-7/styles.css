@@ -1,0 +1,16 @@
+/* creating horizontal navbar on desktop and verticle on mobile with links floated to the right on desktop */
+
+.menu {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}

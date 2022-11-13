@@ -1,0 +1,24 @@
+/* verticle nav menu using media querys */
+
+@media screen and (max-width: 600px) {
+    .menu {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    li {
+        text-align: center;
+        border: 1px solid grey;
+        padding: 30px;
+    }
+    li:hover {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+    
